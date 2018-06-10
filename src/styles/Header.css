@@ -1,6 +1,7 @@
 .Header__root {
   background-color: #ffffff;
   border-bottom: 1px solid #dbdbdb;
+  height: 77px;
 }
 
 .Header__container {
@@ -8,8 +9,8 @@
 }
 
 .Header__logo {
-  font-size: 24px;
-  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
   letter-spacing: 0.1px;
   margin: 0;
 }

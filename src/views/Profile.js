@@ -179,7 +179,7 @@ class Profile extends React.Component {
             </div>
           </div>
           <div className="five columns">
-            <h3 className="Profile__username">{username}</h3>
+            <h4 className="Profile__username">{username}</h4>
             {this.renderActionButton()}
             {this.renderMenuButton()}
             <div className="Profile__stats">
