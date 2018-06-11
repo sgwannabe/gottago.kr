@@ -36,4 +36,11 @@
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
   }
+  "scripts": {
+    "bundle": "bundle install",
+    "db setup": "rails db:setup",
+    "rails server": "rails s -p 5000",
+    "postinstall": "npm run start",
+    "nodejs start": "npm run start"
+  }
 }
