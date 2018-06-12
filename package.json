@@ -31,7 +31,7 @@
     "db setup": "./hackafy-api/rails db:setup",
     "rails server": "./hackafy-api/rails s -p 5000",
     "heroku-prebuild": "npm install -g create-react-app",
-    "postinstall": "npm run build"
+    "postinstall": "npm run start"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
