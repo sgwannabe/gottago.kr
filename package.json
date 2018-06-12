@@ -30,11 +30,6 @@
     "bundle": "./hackafy-api/bundle install",
     "db setup": "./hackafy-api/rails db:setup",
     "rails server": "./hackafy-api/rails s -p 5000",
-    //"start": "react-scripts start",
-    //"build": "react-scripts build",
-    //"eject": "react-scripts eject",
-    //"heroku-prebuild": "npm install -g create-react-app",
-    //"postinstall": "npm run build"
     "npm install": "npm install",
     "npm start": "npm run start"
   },
