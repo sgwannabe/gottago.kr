@@ -5,6 +5,10 @@ development:
 test:
   adapter: async
 
+##production:
+##  adapter: redis
+##  url: redis://redistogo:d903cf95651a8756c394a1c8bb203261@sculpin.redistogo.com:9345/
+
 production:
   adapter: redis
-  url: redis://redistogo:d903cf95651a8756c394a1c8bb203261@sculpin.redistogo.com:9345/
+  url: <%= ENV.fetch('ACTION_CABLE_REDIS_URL', 'redis://127.0.0.1:6380/1') %>
